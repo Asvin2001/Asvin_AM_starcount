@@ -167,7 +167,7 @@ var stars = add.get("stars")
 var re = add.get("re")
 
 if (add == 0) {
-    window.location.replace("https://megaakart.000webhostapp.com/contactmestar.php")
+    window.location.replace("https://megaakart.000webhostapp.com/contactmetotalstars.php")
 }
 
 var strs=document.getElementById("total-stars")
@@ -178,11 +178,11 @@ strs.innerHTML=stars
 
 if (hi == "response_sumitted_successfully") {
     alert("Feedback Submitted Successfully \nThank you " + nam)
-    window.location.replace("http://127.0.0.1:5500/index.html")
+    window.location.replace("https://asvin2001.github.io/Asvin_AM_starcount/")
 }
 else if (hi == "star_sumitted_successfully") {
     alert("Thank you for rating " + st + " stars " + nam)
-    window.location.replace("http://127.0.1:5500/index.html")
+    window.location.replace("https://asvin2001.github.io/Asvin_AM_starcount/")
 
 }
 
